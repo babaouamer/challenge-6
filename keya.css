@@ -5,6 +5,7 @@
 a{
     color: white;
     text-decoration:none;
+    transition: all 1s ease-in-out;
 }
 #nav{
     background-color: blue;
@@ -15,9 +16,90 @@ a{
 #nav img{
     height: 1.75rem;
 }
+#nav a:hover{
+    font-size: 1.5rem;
+}
 #nav ul{
     display: flex;
     list-style: none;
     color: white;
     gap: 2rem;
+}
+
+#header{
+    border: 1px solid rgb(15, 15, 54);
+    margin-top: 4rem;
+    width: 30%;
+    padding: 4rem;
+    margin-left: 4rem;
+}
+#header h1{
+    
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#siction-1{
+    display: flex;
+    margin-top: 6rem;
+    align-items: center;
+    padding: 0 4rem;
+}
+#siction-text{
+    width: 60%;
+}
+
+#siction-1 img{
+    width: 100%;
+}
+#siction-text{
+    width: 60%;
+    padding-left: 2rem;
+}
+#siction-text h2{
+    font-size: 4rem;
+}
+#siction-textv p{
+    margin-top: 2rem;
+    line-height: 1.6rem;
+}
+#siction-2-text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding: 0 4rem;
+}
+#siction-2-text h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+#siction-2-text button{
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: transparent;
+    cursor: pointer;
+}
+#imag-list-con{
+    margin-top: 4rem;
+}
+
+#imag-list img{
+    width: 100%();
+}
+
+#list-1 ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 6rem;
+}
+
+#list-2 ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 6rem;
 }
