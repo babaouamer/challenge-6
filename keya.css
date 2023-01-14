@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+    text-decoration:none;
+}
+#nav{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+}
+#nav img{
+    height: 1.75rem;
+}
+#nav ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    gap: 2rem;
+}
