@@ -96,12 +96,12 @@ a{
     display: flex;
     list-style: none;
     justify-content: center;
-    gap: 6rem;
+    gap: 2rem;
 }
 
 #list-2 ul{
     display: flex;
     list-style: none;
     justify-content: center;
-    gap: 6rem;
+    gap: 2rem;
 }
